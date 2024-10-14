@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 14px;
+  color: #1a1a1a;
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto; 
+}
