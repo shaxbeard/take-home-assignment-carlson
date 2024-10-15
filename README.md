@@ -1,21 +1,15 @@
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
 ## Project Setup
+
+Clone or download the project, cd into the project folder and then:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Run the Project Locally
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Then open a browser to http://localhost:5173/
