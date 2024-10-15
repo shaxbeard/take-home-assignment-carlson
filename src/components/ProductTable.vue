@@ -28,10 +28,7 @@
         <tbody>
           <tr v-for="product in filteredProducts" :key="product.id">
             <td style="border-left: 1px solid #ddd">{{ product.id }}</td>
-            <td style="text-align: center;">
-              <!-- Add your status SVG or other content here -->
-              <!-- <svg width="84" height="28" ...></svg> -->
-            </td>
+            <td style="text-align: center;"><img src="@/assets/status.svg" alt="Status icon" class="status-icon" /></td>
             <td style="text-align: center;">{{ product.quantity }}</td>
             <td @click="showModal(product)" style="cursor: pointer;">{{ product.product }}</td>
             <td style="text-align: center;">{{ product.total }}</td>
